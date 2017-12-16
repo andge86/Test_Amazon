@@ -12,7 +12,7 @@ public class test_Settings {
 
 
         try {
-            System.setProperty("webdriver.chrome.driver", "/Users/andriinotsek/IdeaProjects/Test_Amazon/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "chromedriver");
             driver = new ChromeDriver();
             wait = new WebDriverWait(driver, 10);
             System.out.println("Driver file was found and initialized");
