@@ -23,3 +23,4 @@ To run using Windows OS it is needed (was not tested):
 1. Change   System.setProperty("webdriver.chrome.driver", "chromedriver");  line in code to System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 2. Download chromedriver.exe file (for Windows OS) from http://www.seleniumhq.org/download/
 3. In downloaded Test folder change chromdriver file (for macOS) to chromedriver.exe file (for Windows OS)
+4. Step 4 Terminal command should be   java -cp "./lib/*;./bin" org.testng.TestNG testng.xml
